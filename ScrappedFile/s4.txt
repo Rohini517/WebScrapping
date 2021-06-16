@@ -1,0 +1,1166 @@
+<body><div id="wrapper"><header id="header"><div class="clearfix"><div class="menu-toggler pull-left" tabindex="1"><div class="hamburger"></div></div><a href="http://tomcat.apache.org/"><img class="tomcat-logo pull-left noPrint" alt="Tomcat Home" src="res/images/tomcat.png"></a><h1 class="pull-left">Apache Tomcat<sup>®</sup></h1><div class="asf-logos pull-right"><a href="https://www.apache.org/foundation/contributing.html" target="_blank" class="pull-left"><img src="https://www.apache.org/images/SupportApache-small.png" class="support-asf" alt="Support Apache"></a><a href="http://www.apache.org/" target="_blank" class="pull-left"><img src="res/images/asf_logo.svg" class="asf-logo" alt="The Apache Software Foundation"></a></div></div></header><main id="middle"><div><div id="mainLeft"><div id="nav-wrapper"><form action="https://www.google.com/search" method="get"><div class="searchbox"><input value="tomcat.apache.org" name="sitesearch" type="hidden"><input aria-label="Search text" placeholder="Search…" required="required" name="q" id="query" type="search"><button>GO</button></div></form><div class="asfevents"><a href="https://www.apache.org/events/current-event.html"><img src="https://www.apache.org/events/current-event-234x60.png" alt="Next ASF event"><br>
+              Save the date!
+            </a></div><nav><div><h2>Apache Tomcat</h2><ul><li><a href="./index.html">Home</a></li><li><a href="./taglibs.html">Taglibs</a></li><li><a href="./maven-plugin.html">Maven Plugin</a></li></ul></div><div><h2>Download</h2><ul><li><a href="./whichversion.html">Which version?</a></li><li><a href="https://tomcat.apache.org/download-10.cgi">Tomcat 10</a></li><li><a href="https://tomcat.apache.org/download-90.cgi">Tomcat 9</a></li><li><a href="https://tomcat.apache.org/download-80.cgi">Tomcat 8</a></li><li><a href="https://tomcat.apache.org/download-70.cgi">Tomcat 7</a></li><li><a href="https://tomcat.apache.org/download-migration.cgi">Tomcat Migration Tool for Jakarta EE</a></li><li><a href="https://tomcat.apache.org/download-connectors.cgi">Tomcat Connectors</a></li><li><a href="https://tomcat.apache.org/download-native.cgi">Tomcat Native</a></li><li><a href="https://tomcat.apache.org/download-taglibs.cgi">Taglibs</a></li><li><a href="https://archive.apache.org/dist/tomcat/">Archives</a></li></ul></div><div><h2>Documentation</h2><ul><li><a href="./tomcat-10.0-doc/index.html">Tomcat 10.0</a></li><li><a href="./tomcat-9.0-doc/index.html">Tomcat 9.0</a></li><li><a href="./tomcat-8.5-doc/index.html">Tomcat 8.5</a></li><li><a href="./tomcat-7.0-doc/index.html">Tomcat 7.0</a></li><li><a href="./connectors-doc/">Tomcat Connectors</a></li><li><a href="./native-doc/">Tomcat Native</a></li><li><a href="https://cwiki.apache.org/confluence/display/TOMCAT">Wiki</a></li><li><a href="./migration.html">Migration Guide</a></li><li><a href="./presentations.html">Presentations</a></li><li><a href="https://cwiki.apache.org/confluence/x/Bi8lBg">Specifications</a></li></ul></div><div><h2>Problems?</h2><ul><li><a href="./security.html">Security Reports</a></li><li><a href="./findhelp.html">Find help</a></li><li><a href="https://cwiki.apache.org/confluence/display/TOMCAT/FAQ">FAQ</a></li><li><a href="./lists.html">Mailing Lists</a></li><li><a href="./bugreport.html">Bug Database</a></li><li><a href="./irc.html">IRC</a></li></ul></div><div><h2>Get Involved</h2><ul><li><a href="./getinvolved.html">Overview</a></li><li><a href="./source.html">Source code</a></li><li><a href="./ci.html">Buildbot</a></li><li><a href="https://cwiki.apache.org/confluence/x/vIPzBQ">Translations</a></li><li><a href="./tools.html">Tools</a></li></ul></div><div><h2>Media</h2><ul><li><a href="https://twitter.com/theapachetomcat">Twitter</a></li><li><a href="https://www.youtube.com/c/ApacheTomcatOfficial">YouTube</a></li><li><a href="https://blogs.apache.org/tomcat/">Blog</a></li></ul></div><div><h2>Misc</h2><ul><li><a href="./whoweare.html">Who We Are</a></li><li><a href="https://www.redbubble.com/people/comdev/works/30885254-apache-tomcat">Swag</a></li><li><a href="./heritage.html">Heritage</a></li><li><a href="http://www.apache.org">Apache Home</a></li><li><a href="./resources.html">Resources</a></li><li><a href="./contact.html">Contact</a></li><li><a href="./legal.html">Legal</a></li><li><a href="https://www.apache.org/foundation/contributing.html">Support Apache</a></li><li><a href="https://www.apache.org/foundation/sponsorship.html">Sponsorship</a></li><li><a href="http://www.apache.org/foundation/thanks.html">Thanks</a></li><li><a href="http://www.apache.org/licenses/">License</a></li></ul></div></nav></div></div><div id="mainRight"><div id="content"><h2 style="display: none;">Content</h2><h3 id="Apache_Tomcat">Apache Tomcat</h3><div class="text">
+
+<p>The Apache Tomcat<sup>®</sup> software is an open source implementation
+of the
+<a href="https://projects.eclipse.org/projects/ee4j.servlet" rel="nofollow">Jakarta Servlet</a>,
+<a href="https://projects.eclipse.org/projects/ee4j.jsp" rel="nofollow">Jakarta Server Pages</a>,
+<a href="https://projects.eclipse.org/projects/ee4j.el" rel="nofollow">Jakarta Expression Language</a>,
+<a href="https://projects.eclipse.org/projects/ee4j.websocket" rel="nofollow">Jakarta WebSocket</a>,
+<a href="https://projects.eclipse.org/projects/ee4j.ca" rel="nofollow">Jakarta Annotations</a> and
+<a href="https://projects.eclipse.org/projects/ee4j.authentication" rel="nofollow">Jakarta Authentication</a>
+specifications. These specifications are part of the
+<a href="https://projects.eclipse.org/projects/ee4j.jakartaee-platform" rel="nofollow">Jakarta EE platform</a>.</p>
+
+<p>The Jakarta EE platform is the evolution of the Java EE platform. Tomcat 10
+and later implement specifications developed as part of Jakarta EE. Tomcat 9 and
+earlier implement specifications developed as part of Java EE.
+</p>
+
+<p>The Apache Tomcat software is developed in an open and participatory
+environment and released under the
+<a href="http://www.apache.org/licenses/">Apache License version 2</a>. The
+Apache Tomcat project is intended to be a collaboration of the best-of-breed
+developers from around the world.  We invite you to participate in this open
+development project.  To learn more about getting involved,
+<a href="getinvolved.html">click here</a>.</p>
+
+<p>Apache Tomcat software powers numerous large-scale, mission-critical web
+applications across a diverse range of industries and organizations.  Some of
+these users and their stories are listed on the
+<a href="https://cwiki.apache.org/confluence/display/TOMCAT/PoweredBy">PoweredBy</a>
+wiki page.</p>
+
+<p>Apache Tomcat, Tomcat, Apache, the Apache feather, and the Apache Tomcat
+project logo are trademarks of the Apache Software Foundation.</p>
+
+</div><h3 id="Tomcat_Native_1.2.30_Released"><span class="pull-right">2021-06-04</span> Tomcat Native 1.2.30 Released</h3><div class="text">
+<p>
+The Apache Tomcat Project is proud to announce the release of version 1.2.30 of
+Tomcat Native. The notable changes since 1.2.28 include:
+</p>
+<ul>
+<li>Fix an issue where some Windows systems in some configurations would only
+    listen on IPv6 addresses on dual stack systems even though configured to
+    listen on both IPv6 and IPv4 addresses.</li>
+<li>Additional fix for bug 65181 (support loading private keys in proprietary
+    formats).</li> 
+</ul>
+<p style="text-align: center;">
+<a href="https://tomcat.apache.org/download-native.cgi">Download</a> |
+<a href="native-doc/miscellaneous/changelog.html">ChangeLog for 1.2.30</a>
+</p>
+</div><h3 id="Tomcat_10.0.6_Released"><span class="pull-right">2021-05-12</span> Tomcat 10.0.6 Released</h3><div class="text">
+<p>
+The Apache Tomcat Project is proud to announce the release of version 10.0.6
+of Apache Tomcat. This release implements specifications that are part of the
+Jakarta EE 9 platform.</p>
+<p>Applications that run on Tomcat 9 and earlier will not run on Tomcat 10
+without changes. Java EE based applications designed for Tomcat 9 and earlier
+may be placed in the <code>$CATALINA_BASE/webapps-javaee</code> directory and
+Tomcat will automatically convert them to Jakarta EE and copy them to the
+webapps directory. This conversion is performed using the
+<a href="https://github.com/apache/tomcat-jakartaee-migration">Apache Tomcat
+migration tool for Jakarta EE tool</a> which is also available as a separate
+<a href="https://tomcat.apache.org/download-migration.cgi">download</a> for off-line use.</p>
+<p>The notable changes in this release are:</p>
+<ul>
+<li>Ensure the correct escaping of attribute values and search filters in
+    the JNDIRealm.</li>
+<li>HandlesTypes should include classes that use the specified annotation
+    types on fields or methods.</li>
+<li>Refactor the creation of WebSocket end point, decoder and encoder
+    instances to be more IoC friendly. Instances are now created via the
+    InstanceManager where possible.</li> 
+</ul>
+<p>
+Full details of these changes, and all the other changes, are available in the
+<a href="tomcat-10.0-doc/changelog.html#Tomcat_10.0.6_(markt)">Tomcat 10
+changelog</a>.
+</p>
+
+<p style="text-align: center;">
+<a href="https://tomcat.apache.org/download-10.cgi">Download</a>
+</p>
+</div><h3 id="Tomcat_9.0.46_Released"><span class="pull-right">2021-05-12</span> Tomcat 9.0.46 Released</h3><div class="text">
+<p>
+The Apache Tomcat Project is proud to announce the release of version 9.0.46
+of Apache Tomcat. This release implements specifications that are part of the
+Java EE 8 platform. The notable changes compared to 9.0.45 include:</p>
+<ul>
+<li>Ensure the correct escaping of attribute values and search filters in
+    the JNDIRealm.</li>
+<li>HandlesTypes should include classes that use the specified annotation
+    types on fields or methods.</li>
+<li>Refactor the creation of WebSocket end point, decoder and encoder
+    instances to be more IoC friendly. Instances are now created via the
+    InstanceManager where possible.</li> 
+</ul>
+<p>
+Full details of these changes, and all the other changes, are available in the
+<a href="tomcat-9.0-doc/changelog.html#Tomcat_9.0.46_(markt)">Tomcat 9
+changelog</a>.
+</p>
+
+<p style="text-align: center;">
+<a href="https://tomcat.apache.org/download-90.cgi">Download</a>
+</p>
+</div><h3 id="Tomcat_8.5.66_Released"><span class="pull-right">2020-05-12</span> Tomcat 8.5.66 Released</h3><div class="text">
+<p>
+The Apache Tomcat Project is proud to announce the release of version 8.5.66
+of Apache Tomcat. This release implements specifications that are part of the
+Java EE 7 platform. The notable changes compared to 8.5.65 include:</p>
+<ul>
+<li>Ensure the correct escaping of attribute values and search filters in
+    the JNDIRealm.</li>
+<li>HandlesTypes should include classes that use the specified annotation
+    types on fields or methods.</li>
+<li>Refactor the creation of WebSocket end point, decoder and encoder
+    instances to be more IoC friendly. Instances are now created via the
+    InstanceManager where possible.</li> 
+</ul>
+<p>
+Full details of these changes, and all the other changes, are available in the
+<a href="tomcat-8.5-doc/changelog.html#Tomcat_8.5.66_(markt)">Tomcat 8.5
+changelog</a>.
+</p>
+
+<p style="text-align: center;">
+<a href="https://tomcat.apache.org/download-80.cgi">Download</a>
+</p>
+</div><h3 id="Tomcat_Migration_Tool_for_Jakarta_EE_1.0.0_Released"><span class="pull-right">2021-05-07</span> Tomcat Migration Tool for Jakarta EE 1.0.0 Released</h3><div class="text">
+<p>
+The Apache Tomcat Project is proud to announce the release of 1.0.0 of the
+Apache Tomcat Migration Tool for Jakarta EE. This release contains a number of
+bug fixes and improvements compared to version 0.2.0.</p>
+<p>The notable changes in this release are:</p>
+<ul>
+<li>Further fixes to exclude javax.xml packages that are not part of Java EE
+    from the migration.</li>
+<li>The class transformer now validates that the target classes in the Jakarta
+    namespace exist in the runtime environment.</li>
+</ul>
+<p>
+Full details of these changes, and all the other changes, are available in the
+<a href="https://github.com/apache/tomcat-jakartaee-migration/blob/main/CHANGES.md">changelog</a>.
+</p>
+
+<p style="text-align: center;">
+<a href="https://tomcat.apache.org/download-migration.cgi">Download</a>
+</p>
+</div><h3 id="Tomcat_7.0.109_Released"><span class="pull-right">2021-04-26</span> Tomcat 7.0.109 Released</h3><div class="text">
+<p>
+The Apache Tomcat Project is proud to announce the release of version 7.0.109 of
+Apache Tomcat. This release implements specifications that are part of the Java
+EE 6 platform. This release contains a number of bug fixes and improvements
+compared to version 7.0.108.</p>
+
+<p>
+Full details of these changes, and all the other changes, are available in the
+<a href="tomcat-7.0-doc/changelog.html#Tomcat_7.0.109_(violetagg)">Tomcat 7 changelog</a>.
+</p>
+
+<p><strong>Note:</strong> Apache Tomcat 7.0.x has reached end of life.
+<a href="tomcat-70-eol.html">Read more...</a>
+</p>
+
+<p style="text-align: center;">
+<a href="https://tomcat.apache.org/download-70.cgi">Download</a>
+</p>
+</div><h3 id="Tomcat_Connectors_1.2.48_Released"><span class="pull-right">2020-03-06</span> Tomcat Connectors 1.2.48 Released</h3><div class="text">
+<p>
+The Apache Tomcat Project is proud to announce the release of version 1.2.48 of
+Apache Tomcat Connectors.
+This version fixes a number of bugs found in previous releases.
+</p>
+<p style="text-align: center;">
+<a href="https://tomcat.apache.org/download-connectors.cgi">Download</a> |
+<a href="connectors-doc/miscellaneous/changelog.html">ChangeLog for 1.2.48</a>
+</p>
+</div><h3 id="Apache_Standard_Taglib_1.2.5_Released"><span class="pull-right">2015-03-17</span> Apache Standard Taglib 1.2.5 Released</h3><div class="text">
+<p>
+The Apache Tomcat Project is proud to announce the release of version 1.2.5 of
+the Standard Taglib. This tag library provides Apache's implementation 
+of the JSTL 1.2 specification.
+</p>
+<p>
+Version 1.2.5 is a minor bug fix release reverting a change made in 1.2.1 where
+&lt;c:import&gt; modified the HTTP method during POST operations, and fixing an
+issues that resulted in an AccessControlException during startup unless
+permission was granted to read the accessExternalEntity property.
+</p>
+<p>
+Please see the <a href="taglibs.html">Taglibs section</a> for more details.
+</p>
+<p style="text-align: center;">
+<a href="https://tomcat.apache.org/download-taglibs.cgi">Download</a> |
+<a href="taglibs/CHANGES.txt">Changes</a>
+</p>
+</div><h3 id="Tomcat_Maven_Plugin_2.2_Released"><span class="pull-right">2013-11-11</span> Tomcat Maven Plugin 2.2 Released</h3><div class="text">
+<p>
+The Apache Tomcat team is pleased to announce the release of Tomcat Maven Plugin 2.2.
+Changelog available <a href="maven-plugin-2.2/jira-report.html" target="_blank">here</a>.
+</p>
+<p>
+The <a href="maven-plugin.html">Apache Tomcat Maven Plugin</a> provides goals
+to manipulate WAR projects within the Apache Tomcat servlet container.
+</p>
+<p>
+The binaries are available from Maven repositories. You should specify the
+version in your project's plugin configuration:
+</p>
+<div class="codeBox"><pre><code>&lt;plugin&gt;
+  &lt;groupId&gt;org.apache.tomcat.maven&lt;/groupId&gt;
+  &lt;artifactId&gt;tomcat7-maven-plugin&lt;/artifactId&gt;
+  &lt;version&gt;2.2&lt;/version&gt;
+&lt;/plugin&gt;</code></pre></div>
+<p>or</p>
+<div class="codeBox"><pre><code>&lt;plugin&gt;
+  &lt;groupId&gt;org.apache.tomcat.maven&lt;/groupId&gt;
+  &lt;artifactId&gt;tomcat6-maven-plugin&lt;/artifactId&gt;
+  &lt;version&gt;2.2&lt;/version&gt;
+&lt;/plugin&gt;</code></pre></div>
+</div><h3 id="Old_news">Old news</h3><div class="text">
+<p>
+  See <a href="oldnews.html"> former announcements.</a>
+</p>
+</div></div></div></div></main><footer id="footer">
+    Copyright © 1999-2021, The Apache Software Foundation
+    <br>
+    Apache Tomcat, Tomcat, Apache, the Apache feather, and the Apache Tomcat
+    project logo are either registered trademarks or trademarks of the Apache
+    Software Foundation.
+  </footer></div><script src="res/js/tomcat.js"></script></body><body><div id="wrapper"><header id="header"><div class="clearfix"><div class="menu-toggler pull-left" tabindex="1"><div class="hamburger"></div></div><a href="http://tomcat.apache.org/"><img class="tomcat-logo pull-left noPrint" alt="Tomcat Home" src="res/images/tomcat.png"></a><h1 class="pull-left">Apache Tomcat<sup>®</sup></h1><div class="asf-logos pull-right"><a href="https://www.apache.org/foundation/contributing.html" target="_blank" class="pull-left"><img src="https://www.apache.org/images/SupportApache-small.png" class="support-asf" alt="Support Apache"></a><a href="http://www.apache.org/" target="_blank" class="pull-left"><img src="res/images/asf_logo.svg" class="asf-logo" alt="The Apache Software Foundation"></a></div></div></header><main id="middle"><div><div id="mainLeft"><div id="nav-wrapper"><form action="https://www.google.com/search" method="get"><div class="searchbox"><input value="tomcat.apache.org" name="sitesearch" type="hidden"><input aria-label="Search text" placeholder="Search…" required="required" name="q" id="query" type="search"><button>GO</button></div></form><div class="asfevents"><a href="https://www.apache.org/events/current-event.html"><img src="https://www.apache.org/events/current-event-234x60.png" alt="Next ASF event"><br>
+              Save the date!
+            </a></div><nav><div><h2>Apache Tomcat</h2><ul><li><a href="./index.html">Home</a></li><li><a href="./taglibs.html">Taglibs</a></li><li><a href="./maven-plugin.html">Maven Plugin</a></li></ul></div><div><h2>Download</h2><ul><li><a href="./whichversion.html">Which version?</a></li><li><a href="https://tomcat.apache.org/download-10.cgi">Tomcat 10</a></li><li><a href="https://tomcat.apache.org/download-90.cgi">Tomcat 9</a></li><li><a href="https://tomcat.apache.org/download-80.cgi">Tomcat 8</a></li><li><a href="https://tomcat.apache.org/download-70.cgi">Tomcat 7</a></li><li><a href="https://tomcat.apache.org/download-migration.cgi">Tomcat Migration Tool for Jakarta EE</a></li><li><a href="https://tomcat.apache.org/download-connectors.cgi">Tomcat Connectors</a></li><li><a href="https://tomcat.apache.org/download-native.cgi">Tomcat Native</a></li><li><a href="https://tomcat.apache.org/download-taglibs.cgi">Taglibs</a></li><li><a href="https://archive.apache.org/dist/tomcat/">Archives</a></li></ul></div><div><h2>Documentation</h2><ul><li><a href="./tomcat-10.0-doc/index.html">Tomcat 10.0</a></li><li><a href="./tomcat-9.0-doc/index.html">Tomcat 9.0</a></li><li><a href="./tomcat-8.5-doc/index.html">Tomcat 8.5</a></li><li><a href="./tomcat-7.0-doc/index.html">Tomcat 7.0</a></li><li><a href="./connectors-doc/">Tomcat Connectors</a></li><li><a href="./native-doc/">Tomcat Native</a></li><li><a href="https://cwiki.apache.org/confluence/display/TOMCAT">Wiki</a></li><li><a href="./migration.html">Migration Guide</a></li><li><a href="./presentations.html">Presentations</a></li><li><a href="https://cwiki.apache.org/confluence/x/Bi8lBg">Specifications</a></li></ul></div><div><h2>Problems?</h2><ul><li><a href="./security.html">Security Reports</a></li><li><a href="./findhelp.html">Find help</a></li><li><a href="https://cwiki.apache.org/confluence/display/TOMCAT/FAQ">FAQ</a></li><li><a href="./lists.html">Mailing Lists</a></li><li><a href="./bugreport.html">Bug Database</a></li><li><a href="./irc.html">IRC</a></li></ul></div><div><h2>Get Involved</h2><ul><li><a href="./getinvolved.html">Overview</a></li><li><a href="./source.html">Source code</a></li><li><a href="./ci.html">Buildbot</a></li><li><a href="https://cwiki.apache.org/confluence/x/vIPzBQ">Translations</a></li><li><a href="./tools.html">Tools</a></li></ul></div><div><h2>Media</h2><ul><li><a href="https://twitter.com/theapachetomcat">Twitter</a></li><li><a href="https://www.youtube.com/c/ApacheTomcatOfficial">YouTube</a></li><li><a href="https://blogs.apache.org/tomcat/">Blog</a></li></ul></div><div><h2>Misc</h2><ul><li><a href="./whoweare.html">Who We Are</a></li><li><a href="https://www.redbubble.com/people/comdev/works/30885254-apache-tomcat">Swag</a></li><li><a href="./heritage.html">Heritage</a></li><li><a href="http://www.apache.org">Apache Home</a></li><li><a href="./resources.html">Resources</a></li><li><a href="./contact.html">Contact</a></li><li><a href="./legal.html">Legal</a></li><li><a href="https://www.apache.org/foundation/contributing.html">Support Apache</a></li><li><a href="https://www.apache.org/foundation/sponsorship.html">Sponsorship</a></li><li><a href="http://www.apache.org/foundation/thanks.html">Thanks</a></li><li><a href="http://www.apache.org/licenses/">License</a></li></ul></div></nav></div></div><div id="mainRight"><div id="content"><h2 style="display: none;">Content</h2><h3 id="Apache_Tomcat">Apache Tomcat</h3><div class="text">
+
+<p>The Apache Tomcat<sup>®</sup> software is an open source implementation
+of the
+<a href="https://projects.eclipse.org/projects/ee4j.servlet" rel="nofollow">Jakarta Servlet</a>,
+<a href="https://projects.eclipse.org/projects/ee4j.jsp" rel="nofollow">Jakarta Server Pages</a>,
+<a href="https://projects.eclipse.org/projects/ee4j.el" rel="nofollow">Jakarta Expression Language</a>,
+<a href="https://projects.eclipse.org/projects/ee4j.websocket" rel="nofollow">Jakarta WebSocket</a>,
+<a href="https://projects.eclipse.org/projects/ee4j.ca" rel="nofollow">Jakarta Annotations</a> and
+<a href="https://projects.eclipse.org/projects/ee4j.authentication" rel="nofollow">Jakarta Authentication</a>
+specifications. These specifications are part of the
+<a href="https://projects.eclipse.org/projects/ee4j.jakartaee-platform" rel="nofollow">Jakarta EE platform</a>.</p>
+
+<p>The Jakarta EE platform is the evolution of the Java EE platform. Tomcat 10
+and later implement specifications developed as part of Jakarta EE. Tomcat 9 and
+earlier implement specifications developed as part of Java EE.
+</p>
+
+<p>The Apache Tomcat software is developed in an open and participatory
+environment and released under the
+<a href="http://www.apache.org/licenses/">Apache License version 2</a>. The
+Apache Tomcat project is intended to be a collaboration of the best-of-breed
+developers from around the world.  We invite you to participate in this open
+development project.  To learn more about getting involved,
+<a href="getinvolved.html">click here</a>.</p>
+
+<p>Apache Tomcat software powers numerous large-scale, mission-critical web
+applications across a diverse range of industries and organizations.  Some of
+these users and their stories are listed on the
+<a href="https://cwiki.apache.org/confluence/display/TOMCAT/PoweredBy">PoweredBy</a>
+wiki page.</p>
+
+<p>Apache Tomcat, Tomcat, Apache, the Apache feather, and the Apache Tomcat
+project logo are trademarks of the Apache Software Foundation.</p>
+
+</div><h3 id="Tomcat_Native_1.2.30_Released"><span class="pull-right">2021-06-04</span> Tomcat Native 1.2.30 Released</h3><div class="text">
+<p>
+The Apache Tomcat Project is proud to announce the release of version 1.2.30 of
+Tomcat Native. The notable changes since 1.2.28 include:
+</p>
+<ul>
+<li>Fix an issue where some Windows systems in some configurations would only
+    listen on IPv6 addresses on dual stack systems even though configured to
+    listen on both IPv6 and IPv4 addresses.</li>
+<li>Additional fix for bug 65181 (support loading private keys in proprietary
+    formats).</li> 
+</ul>
+<p style="text-align: center;">
+<a href="https://tomcat.apache.org/download-native.cgi">Download</a> |
+<a href="native-doc/miscellaneous/changelog.html">ChangeLog for 1.2.30</a>
+</p>
+</div><h3 id="Tomcat_10.0.6_Released"><span class="pull-right">2021-05-12</span> Tomcat 10.0.6 Released</h3><div class="text">
+<p>
+The Apache Tomcat Project is proud to announce the release of version 10.0.6
+of Apache Tomcat. This release implements specifications that are part of the
+Jakarta EE 9 platform.</p>
+<p>Applications that run on Tomcat 9 and earlier will not run on Tomcat 10
+without changes. Java EE based applications designed for Tomcat 9 and earlier
+may be placed in the <code>$CATALINA_BASE/webapps-javaee</code> directory and
+Tomcat will automatically convert them to Jakarta EE and copy them to the
+webapps directory. This conversion is performed using the
+<a href="https://github.com/apache/tomcat-jakartaee-migration">Apache Tomcat
+migration tool for Jakarta EE tool</a> which is also available as a separate
+<a href="https://tomcat.apache.org/download-migration.cgi">download</a> for off-line use.</p>
+<p>The notable changes in this release are:</p>
+<ul>
+<li>Ensure the correct escaping of attribute values and search filters in
+    the JNDIRealm.</li>
+<li>HandlesTypes should include classes that use the specified annotation
+    types on fields or methods.</li>
+<li>Refactor the creation of WebSocket end point, decoder and encoder
+    instances to be more IoC friendly. Instances are now created via the
+    InstanceManager where possible.</li> 
+</ul>
+<p>
+Full details of these changes, and all the other changes, are available in the
+<a href="tomcat-10.0-doc/changelog.html#Tomcat_10.0.6_(markt)">Tomcat 10
+changelog</a>.
+</p>
+
+<p style="text-align: center;">
+<a href="https://tomcat.apache.org/download-10.cgi">Download</a>
+</p>
+</div><h3 id="Tomcat_9.0.46_Released"><span class="pull-right">2021-05-12</span> Tomcat 9.0.46 Released</h3><div class="text">
+<p>
+The Apache Tomcat Project is proud to announce the release of version 9.0.46
+of Apache Tomcat. This release implements specifications that are part of the
+Java EE 8 platform. The notable changes compared to 9.0.45 include:</p>
+<ul>
+<li>Ensure the correct escaping of attribute values and search filters in
+    the JNDIRealm.</li>
+<li>HandlesTypes should include classes that use the specified annotation
+    types on fields or methods.</li>
+<li>Refactor the creation of WebSocket end point, decoder and encoder
+    instances to be more IoC friendly. Instances are now created via the
+    InstanceManager where possible.</li> 
+</ul>
+<p>
+Full details of these changes, and all the other changes, are available in the
+<a href="tomcat-9.0-doc/changelog.html#Tomcat_9.0.46_(markt)">Tomcat 9
+changelog</a>.
+</p>
+
+<p style="text-align: center;">
+<a href="https://tomcat.apache.org/download-90.cgi">Download</a>
+</p>
+</div><h3 id="Tomcat_8.5.66_Released"><span class="pull-right">2020-05-12</span> Tomcat 8.5.66 Released</h3><div class="text">
+<p>
+The Apache Tomcat Project is proud to announce the release of version 8.5.66
+of Apache Tomcat. This release implements specifications that are part of the
+Java EE 7 platform. The notable changes compared to 8.5.65 include:</p>
+<ul>
+<li>Ensure the correct escaping of attribute values and search filters in
+    the JNDIRealm.</li>
+<li>HandlesTypes should include classes that use the specified annotation
+    types on fields or methods.</li>
+<li>Refactor the creation of WebSocket end point, decoder and encoder
+    instances to be more IoC friendly. Instances are now created via the
+    InstanceManager where possible.</li> 
+</ul>
+<p>
+Full details of these changes, and all the other changes, are available in the
+<a href="tomcat-8.5-doc/changelog.html#Tomcat_8.5.66_(markt)">Tomcat 8.5
+changelog</a>.
+</p>
+
+<p style="text-align: center;">
+<a href="https://tomcat.apache.org/download-80.cgi">Download</a>
+</p>
+</div><h3 id="Tomcat_Migration_Tool_for_Jakarta_EE_1.0.0_Released"><span class="pull-right">2021-05-07</span> Tomcat Migration Tool for Jakarta EE 1.0.0 Released</h3><div class="text">
+<p>
+The Apache Tomcat Project is proud to announce the release of 1.0.0 of the
+Apache Tomcat Migration Tool for Jakarta EE. This release contains a number of
+bug fixes and improvements compared to version 0.2.0.</p>
+<p>The notable changes in this release are:</p>
+<ul>
+<li>Further fixes to exclude javax.xml packages that are not part of Java EE
+    from the migration.</li>
+<li>The class transformer now validates that the target classes in the Jakarta
+    namespace exist in the runtime environment.</li>
+</ul>
+<p>
+Full details of these changes, and all the other changes, are available in the
+<a href="https://github.com/apache/tomcat-jakartaee-migration/blob/main/CHANGES.md">changelog</a>.
+</p>
+
+<p style="text-align: center;">
+<a href="https://tomcat.apache.org/download-migration.cgi">Download</a>
+</p>
+</div><h3 id="Tomcat_7.0.109_Released"><span class="pull-right">2021-04-26</span> Tomcat 7.0.109 Released</h3><div class="text">
+<p>
+The Apache Tomcat Project is proud to announce the release of version 7.0.109 of
+Apache Tomcat. This release implements specifications that are part of the Java
+EE 6 platform. This release contains a number of bug fixes and improvements
+compared to version 7.0.108.</p>
+
+<p>
+Full details of these changes, and all the other changes, are available in the
+<a href="tomcat-7.0-doc/changelog.html#Tomcat_7.0.109_(violetagg)">Tomcat 7 changelog</a>.
+</p>
+
+<p><strong>Note:</strong> Apache Tomcat 7.0.x has reached end of life.
+<a href="tomcat-70-eol.html">Read more...</a>
+</p>
+
+<p style="text-align: center;">
+<a href="https://tomcat.apache.org/download-70.cgi">Download</a>
+</p>
+</div><h3 id="Tomcat_Connectors_1.2.48_Released"><span class="pull-right">2020-03-06</span> Tomcat Connectors 1.2.48 Released</h3><div class="text">
+<p>
+The Apache Tomcat Project is proud to announce the release of version 1.2.48 of
+Apache Tomcat Connectors.
+This version fixes a number of bugs found in previous releases.
+</p>
+<p style="text-align: center;">
+<a href="https://tomcat.apache.org/download-connectors.cgi">Download</a> |
+<a href="connectors-doc/miscellaneous/changelog.html">ChangeLog for 1.2.48</a>
+</p>
+</div><h3 id="Apache_Standard_Taglib_1.2.5_Released"><span class="pull-right">2015-03-17</span> Apache Standard Taglib 1.2.5 Released</h3><div class="text">
+<p>
+The Apache Tomcat Project is proud to announce the release of version 1.2.5 of
+the Standard Taglib. This tag library provides Apache's implementation 
+of the JSTL 1.2 specification.
+</p>
+<p>
+Version 1.2.5 is a minor bug fix release reverting a change made in 1.2.1 where
+&lt;c:import&gt; modified the HTTP method during POST operations, and fixing an
+issues that resulted in an AccessControlException during startup unless
+permission was granted to read the accessExternalEntity property.
+</p>
+<p>
+Please see the <a href="taglibs.html">Taglibs section</a> for more details.
+</p>
+<p style="text-align: center;">
+<a href="https://tomcat.apache.org/download-taglibs.cgi">Download</a> |
+<a href="taglibs/CHANGES.txt">Changes</a>
+</p>
+</div><h3 id="Tomcat_Maven_Plugin_2.2_Released"><span class="pull-right">2013-11-11</span> Tomcat Maven Plugin 2.2 Released</h3><div class="text">
+<p>
+The Apache Tomcat team is pleased to announce the release of Tomcat Maven Plugin 2.2.
+Changelog available <a href="maven-plugin-2.2/jira-report.html" target="_blank">here</a>.
+</p>
+<p>
+The <a href="maven-plugin.html">Apache Tomcat Maven Plugin</a> provides goals
+to manipulate WAR projects within the Apache Tomcat servlet container.
+</p>
+<p>
+The binaries are available from Maven repositories. You should specify the
+version in your project's plugin configuration:
+</p>
+<div class="codeBox"><pre><code>&lt;plugin&gt;
+  &lt;groupId&gt;org.apache.tomcat.maven&lt;/groupId&gt;
+  &lt;artifactId&gt;tomcat7-maven-plugin&lt;/artifactId&gt;
+  &lt;version&gt;2.2&lt;/version&gt;
+&lt;/plugin&gt;</code></pre></div>
+<p>or</p>
+<div class="codeBox"><pre><code>&lt;plugin&gt;
+  &lt;groupId&gt;org.apache.tomcat.maven&lt;/groupId&gt;
+  &lt;artifactId&gt;tomcat6-maven-plugin&lt;/artifactId&gt;
+  &lt;version&gt;2.2&lt;/version&gt;
+&lt;/plugin&gt;</code></pre></div>
+</div><h3 id="Old_news">Old news</h3><div class="text">
+<p>
+  See <a href="oldnews.html"> former announcements.</a>
+</p>
+</div></div></div></div></main><footer id="footer">
+    Copyright © 1999-2021, The Apache Software Foundation
+    <br>
+    Apache Tomcat, Tomcat, Apache, the Apache feather, and the Apache Tomcat
+    project logo are either registered trademarks or trademarks of the Apache
+    Software Foundation.
+  </footer></div><script src="res/js/tomcat.js"></script></body><body><div id="wrapper"><header id="header"><div class="clearfix"><div class="menu-toggler pull-left" tabindex="1"><div class="hamburger"></div></div><a href="http://tomcat.apache.org/"><img class="tomcat-logo pull-left noPrint" alt="Tomcat Home" src="res/images/tomcat.png"></a><h1 class="pull-left">Apache Tomcat<sup>®</sup></h1><div class="asf-logos pull-right"><a href="https://www.apache.org/foundation/contributing.html" target="_blank" class="pull-left"><img src="https://www.apache.org/images/SupportApache-small.png" class="support-asf" alt="Support Apache"></a><a href="http://www.apache.org/" target="_blank" class="pull-left"><img src="res/images/asf_logo.svg" class="asf-logo" alt="The Apache Software Foundation"></a></div></div></header><main id="middle"><div><div id="mainLeft"><div id="nav-wrapper"><form action="https://www.google.com/search" method="get"><div class="searchbox"><input value="tomcat.apache.org" name="sitesearch" type="hidden"><input aria-label="Search text" placeholder="Search…" required="required" name="q" id="query" type="search"><button>GO</button></div></form><div class="asfevents"><a href="https://www.apache.org/events/current-event.html"><img src="https://www.apache.org/events/current-event-234x60.png" alt="Next ASF event"><br>
+              Save the date!
+            </a></div><nav><div><h2>Apache Tomcat</h2><ul><li><a href="./index.html">Home</a></li><li><a href="./taglibs.html">Taglibs</a></li><li><a href="./maven-plugin.html">Maven Plugin</a></li></ul></div><div><h2>Download</h2><ul><li><a href="./whichversion.html">Which version?</a></li><li><a href="https://tomcat.apache.org/download-10.cgi">Tomcat 10</a></li><li><a href="https://tomcat.apache.org/download-90.cgi">Tomcat 9</a></li><li><a href="https://tomcat.apache.org/download-80.cgi">Tomcat 8</a></li><li><a href="https://tomcat.apache.org/download-70.cgi">Tomcat 7</a></li><li><a href="https://tomcat.apache.org/download-migration.cgi">Tomcat Migration Tool for Jakarta EE</a></li><li><a href="https://tomcat.apache.org/download-connectors.cgi">Tomcat Connectors</a></li><li><a href="https://tomcat.apache.org/download-native.cgi">Tomcat Native</a></li><li><a href="https://tomcat.apache.org/download-taglibs.cgi">Taglibs</a></li><li><a href="https://archive.apache.org/dist/tomcat/">Archives</a></li></ul></div><div><h2>Documentation</h2><ul><li><a href="./tomcat-10.0-doc/index.html">Tomcat 10.0</a></li><li><a href="./tomcat-9.0-doc/index.html">Tomcat 9.0</a></li><li><a href="./tomcat-8.5-doc/index.html">Tomcat 8.5</a></li><li><a href="./tomcat-7.0-doc/index.html">Tomcat 7.0</a></li><li><a href="./connectors-doc/">Tomcat Connectors</a></li><li><a href="./native-doc/">Tomcat Native</a></li><li><a href="https://cwiki.apache.org/confluence/display/TOMCAT">Wiki</a></li><li><a href="./migration.html">Migration Guide</a></li><li><a href="./presentations.html">Presentations</a></li><li><a href="https://cwiki.apache.org/confluence/x/Bi8lBg">Specifications</a></li></ul></div><div><h2>Problems?</h2><ul><li><a href="./security.html">Security Reports</a></li><li><a href="./findhelp.html">Find help</a></li><li><a href="https://cwiki.apache.org/confluence/display/TOMCAT/FAQ">FAQ</a></li><li><a href="./lists.html">Mailing Lists</a></li><li><a href="./bugreport.html">Bug Database</a></li><li><a href="./irc.html">IRC</a></li></ul></div><div><h2>Get Involved</h2><ul><li><a href="./getinvolved.html">Overview</a></li><li><a href="./source.html">Source code</a></li><li><a href="./ci.html">Buildbot</a></li><li><a href="https://cwiki.apache.org/confluence/x/vIPzBQ">Translations</a></li><li><a href="./tools.html">Tools</a></li></ul></div><div><h2>Media</h2><ul><li><a href="https://twitter.com/theapachetomcat">Twitter</a></li><li><a href="https://www.youtube.com/c/ApacheTomcatOfficial">YouTube</a></li><li><a href="https://blogs.apache.org/tomcat/">Blog</a></li></ul></div><div><h2>Misc</h2><ul><li><a href="./whoweare.html">Who We Are</a></li><li><a href="https://www.redbubble.com/people/comdev/works/30885254-apache-tomcat">Swag</a></li><li><a href="./heritage.html">Heritage</a></li><li><a href="http://www.apache.org">Apache Home</a></li><li><a href="./resources.html">Resources</a></li><li><a href="./contact.html">Contact</a></li><li><a href="./legal.html">Legal</a></li><li><a href="https://www.apache.org/foundation/contributing.html">Support Apache</a></li><li><a href="https://www.apache.org/foundation/sponsorship.html">Sponsorship</a></li><li><a href="http://www.apache.org/foundation/thanks.html">Thanks</a></li><li><a href="http://www.apache.org/licenses/">License</a></li></ul></div></nav></div></div><div id="mainRight"><div id="content"><h2 style="display: none;">Content</h2><h3 id="Apache_Tomcat">Apache Tomcat</h3><div class="text">
+
+<p>The Apache Tomcat<sup>®</sup> software is an open source implementation
+of the
+<a href="https://projects.eclipse.org/projects/ee4j.servlet" rel="nofollow">Jakarta Servlet</a>,
+<a href="https://projects.eclipse.org/projects/ee4j.jsp" rel="nofollow">Jakarta Server Pages</a>,
+<a href="https://projects.eclipse.org/projects/ee4j.el" rel="nofollow">Jakarta Expression Language</a>,
+<a href="https://projects.eclipse.org/projects/ee4j.websocket" rel="nofollow">Jakarta WebSocket</a>,
+<a href="https://projects.eclipse.org/projects/ee4j.ca" rel="nofollow">Jakarta Annotations</a> and
+<a href="https://projects.eclipse.org/projects/ee4j.authentication" rel="nofollow">Jakarta Authentication</a>
+specifications. These specifications are part of the
+<a href="https://projects.eclipse.org/projects/ee4j.jakartaee-platform" rel="nofollow">Jakarta EE platform</a>.</p>
+
+<p>The Jakarta EE platform is the evolution of the Java EE platform. Tomcat 10
+and later implement specifications developed as part of Jakarta EE. Tomcat 9 and
+earlier implement specifications developed as part of Java EE.
+</p>
+
+<p>The Apache Tomcat software is developed in an open and participatory
+environment and released under the
+<a href="http://www.apache.org/licenses/">Apache License version 2</a>. The
+Apache Tomcat project is intended to be a collaboration of the best-of-breed
+developers from around the world.  We invite you to participate in this open
+development project.  To learn more about getting involved,
+<a href="getinvolved.html">click here</a>.</p>
+
+<p>Apache Tomcat software powers numerous large-scale, mission-critical web
+applications across a diverse range of industries and organizations.  Some of
+these users and their stories are listed on the
+<a href="https://cwiki.apache.org/confluence/display/TOMCAT/PoweredBy">PoweredBy</a>
+wiki page.</p>
+
+<p>Apache Tomcat, Tomcat, Apache, the Apache feather, and the Apache Tomcat
+project logo are trademarks of the Apache Software Foundation.</p>
+
+</div><h3 id="Tomcat_Native_1.2.30_Released"><span class="pull-right">2021-06-04</span> Tomcat Native 1.2.30 Released</h3><div class="text">
+<p>
+The Apache Tomcat Project is proud to announce the release of version 1.2.30 of
+Tomcat Native. The notable changes since 1.2.28 include:
+</p>
+<ul>
+<li>Fix an issue where some Windows systems in some configurations would only
+    listen on IPv6 addresses on dual stack systems even though configured to
+    listen on both IPv6 and IPv4 addresses.</li>
+<li>Additional fix for bug 65181 (support loading private keys in proprietary
+    formats).</li> 
+</ul>
+<p style="text-align: center;">
+<a href="https://tomcat.apache.org/download-native.cgi">Download</a> |
+<a href="native-doc/miscellaneous/changelog.html">ChangeLog for 1.2.30</a>
+</p>
+</div><h3 id="Tomcat_10.0.6_Released"><span class="pull-right">2021-05-12</span> Tomcat 10.0.6 Released</h3><div class="text">
+<p>
+The Apache Tomcat Project is proud to announce the release of version 10.0.6
+of Apache Tomcat. This release implements specifications that are part of the
+Jakarta EE 9 platform.</p>
+<p>Applications that run on Tomcat 9 and earlier will not run on Tomcat 10
+without changes. Java EE based applications designed for Tomcat 9 and earlier
+may be placed in the <code>$CATALINA_BASE/webapps-javaee</code> directory and
+Tomcat will automatically convert them to Jakarta EE and copy them to the
+webapps directory. This conversion is performed using the
+<a href="https://github.com/apache/tomcat-jakartaee-migration">Apache Tomcat
+migration tool for Jakarta EE tool</a> which is also available as a separate
+<a href="https://tomcat.apache.org/download-migration.cgi">download</a> for off-line use.</p>
+<p>The notable changes in this release are:</p>
+<ul>
+<li>Ensure the correct escaping of attribute values and search filters in
+    the JNDIRealm.</li>
+<li>HandlesTypes should include classes that use the specified annotation
+    types on fields or methods.</li>
+<li>Refactor the creation of WebSocket end point, decoder and encoder
+    instances to be more IoC friendly. Instances are now created via the
+    InstanceManager where possible.</li> 
+</ul>
+<p>
+Full details of these changes, and all the other changes, are available in the
+<a href="tomcat-10.0-doc/changelog.html#Tomcat_10.0.6_(markt)">Tomcat 10
+changelog</a>.
+</p>
+
+<p style="text-align: center;">
+<a href="https://tomcat.apache.org/download-10.cgi">Download</a>
+</p>
+</div><h3 id="Tomcat_9.0.46_Released"><span class="pull-right">2021-05-12</span> Tomcat 9.0.46 Released</h3><div class="text">
+<p>
+The Apache Tomcat Project is proud to announce the release of version 9.0.46
+of Apache Tomcat. This release implements specifications that are part of the
+Java EE 8 platform. The notable changes compared to 9.0.45 include:</p>
+<ul>
+<li>Ensure the correct escaping of attribute values and search filters in
+    the JNDIRealm.</li>
+<li>HandlesTypes should include classes that use the specified annotation
+    types on fields or methods.</li>
+<li>Refactor the creation of WebSocket end point, decoder and encoder
+    instances to be more IoC friendly. Instances are now created via the
+    InstanceManager where possible.</li> 
+</ul>
+<p>
+Full details of these changes, and all the other changes, are available in the
+<a href="tomcat-9.0-doc/changelog.html#Tomcat_9.0.46_(markt)">Tomcat 9
+changelog</a>.
+</p>
+
+<p style="text-align: center;">
+<a href="https://tomcat.apache.org/download-90.cgi">Download</a>
+</p>
+</div><h3 id="Tomcat_8.5.66_Released"><span class="pull-right">2020-05-12</span> Tomcat 8.5.66 Released</h3><div class="text">
+<p>
+The Apache Tomcat Project is proud to announce the release of version 8.5.66
+of Apache Tomcat. This release implements specifications that are part of the
+Java EE 7 platform. The notable changes compared to 8.5.65 include:</p>
+<ul>
+<li>Ensure the correct escaping of attribute values and search filters in
+    the JNDIRealm.</li>
+<li>HandlesTypes should include classes that use the specified annotation
+    types on fields or methods.</li>
+<li>Refactor the creation of WebSocket end point, decoder and encoder
+    instances to be more IoC friendly. Instances are now created via the
+    InstanceManager where possible.</li> 
+</ul>
+<p>
+Full details of these changes, and all the other changes, are available in the
+<a href="tomcat-8.5-doc/changelog.html#Tomcat_8.5.66_(markt)">Tomcat 8.5
+changelog</a>.
+</p>
+
+<p style="text-align: center;">
+<a href="https://tomcat.apache.org/download-80.cgi">Download</a>
+</p>
+</div><h3 id="Tomcat_Migration_Tool_for_Jakarta_EE_1.0.0_Released"><span class="pull-right">2021-05-07</span> Tomcat Migration Tool for Jakarta EE 1.0.0 Released</h3><div class="text">
+<p>
+The Apache Tomcat Project is proud to announce the release of 1.0.0 of the
+Apache Tomcat Migration Tool for Jakarta EE. This release contains a number of
+bug fixes and improvements compared to version 0.2.0.</p>
+<p>The notable changes in this release are:</p>
+<ul>
+<li>Further fixes to exclude javax.xml packages that are not part of Java EE
+    from the migration.</li>
+<li>The class transformer now validates that the target classes in the Jakarta
+    namespace exist in the runtime environment.</li>
+</ul>
+<p>
+Full details of these changes, and all the other changes, are available in the
+<a href="https://github.com/apache/tomcat-jakartaee-migration/blob/main/CHANGES.md">changelog</a>.
+</p>
+
+<p style="text-align: center;">
+<a href="https://tomcat.apache.org/download-migration.cgi">Download</a>
+</p>
+</div><h3 id="Tomcat_7.0.109_Released"><span class="pull-right">2021-04-26</span> Tomcat 7.0.109 Released</h3><div class="text">
+<p>
+The Apache Tomcat Project is proud to announce the release of version 7.0.109 of
+Apache Tomcat. This release implements specifications that are part of the Java
+EE 6 platform. This release contains a number of bug fixes and improvements
+compared to version 7.0.108.</p>
+
+<p>
+Full details of these changes, and all the other changes, are available in the
+<a href="tomcat-7.0-doc/changelog.html#Tomcat_7.0.109_(violetagg)">Tomcat 7 changelog</a>.
+</p>
+
+<p><strong>Note:</strong> Apache Tomcat 7.0.x has reached end of life.
+<a href="tomcat-70-eol.html">Read more...</a>
+</p>
+
+<p style="text-align: center;">
+<a href="https://tomcat.apache.org/download-70.cgi">Download</a>
+</p>
+</div><h3 id="Tomcat_Connectors_1.2.48_Released"><span class="pull-right">2020-03-06</span> Tomcat Connectors 1.2.48 Released</h3><div class="text">
+<p>
+The Apache Tomcat Project is proud to announce the release of version 1.2.48 of
+Apache Tomcat Connectors.
+This version fixes a number of bugs found in previous releases.
+</p>
+<p style="text-align: center;">
+<a href="https://tomcat.apache.org/download-connectors.cgi">Download</a> |
+<a href="connectors-doc/miscellaneous/changelog.html">ChangeLog for 1.2.48</a>
+</p>
+</div><h3 id="Apache_Standard_Taglib_1.2.5_Released"><span class="pull-right">2015-03-17</span> Apache Standard Taglib 1.2.5 Released</h3><div class="text">
+<p>
+The Apache Tomcat Project is proud to announce the release of version 1.2.5 of
+the Standard Taglib. This tag library provides Apache's implementation 
+of the JSTL 1.2 specification.
+</p>
+<p>
+Version 1.2.5 is a minor bug fix release reverting a change made in 1.2.1 where
+&lt;c:import&gt; modified the HTTP method during POST operations, and fixing an
+issues that resulted in an AccessControlException during startup unless
+permission was granted to read the accessExternalEntity property.
+</p>
+<p>
+Please see the <a href="taglibs.html">Taglibs section</a> for more details.
+</p>
+<p style="text-align: center;">
+<a href="https://tomcat.apache.org/download-taglibs.cgi">Download</a> |
+<a href="taglibs/CHANGES.txt">Changes</a>
+</p>
+</div><h3 id="Tomcat_Maven_Plugin_2.2_Released"><span class="pull-right">2013-11-11</span> Tomcat Maven Plugin 2.2 Released</h3><div class="text">
+<p>
+The Apache Tomcat team is pleased to announce the release of Tomcat Maven Plugin 2.2.
+Changelog available <a href="maven-plugin-2.2/jira-report.html" target="_blank">here</a>.
+</p>
+<p>
+The <a href="maven-plugin.html">Apache Tomcat Maven Plugin</a> provides goals
+to manipulate WAR projects within the Apache Tomcat servlet container.
+</p>
+<p>
+The binaries are available from Maven repositories. You should specify the
+version in your project's plugin configuration:
+</p>
+<div class="codeBox"><pre><code>&lt;plugin&gt;
+  &lt;groupId&gt;org.apache.tomcat.maven&lt;/groupId&gt;
+  &lt;artifactId&gt;tomcat7-maven-plugin&lt;/artifactId&gt;
+  &lt;version&gt;2.2&lt;/version&gt;
+&lt;/plugin&gt;</code></pre></div>
+<p>or</p>
+<div class="codeBox"><pre><code>&lt;plugin&gt;
+  &lt;groupId&gt;org.apache.tomcat.maven&lt;/groupId&gt;
+  &lt;artifactId&gt;tomcat6-maven-plugin&lt;/artifactId&gt;
+  &lt;version&gt;2.2&lt;/version&gt;
+&lt;/plugin&gt;</code></pre></div>
+</div><h3 id="Old_news">Old news</h3><div class="text">
+<p>
+  See <a href="oldnews.html"> former announcements.</a>
+</p>
+</div></div></div></div></main><footer id="footer">
+    Copyright © 1999-2021, The Apache Software Foundation
+    <br>
+    Apache Tomcat, Tomcat, Apache, the Apache feather, and the Apache Tomcat
+    project logo are either registered trademarks or trademarks of the Apache
+    Software Foundation.
+  </footer></div><script src="res/js/tomcat.js"></script></body><body><div id="wrapper"><header id="header"><div class="clearfix"><div class="menu-toggler pull-left" tabindex="1"><div class="hamburger"></div></div><a href="http://tomcat.apache.org/"><img class="tomcat-logo pull-left noPrint" alt="Tomcat Home" src="res/images/tomcat.png"></a><h1 class="pull-left">Apache Tomcat<sup>®</sup></h1><div class="asf-logos pull-right"><a href="https://www.apache.org/foundation/contributing.html" target="_blank" class="pull-left"><img src="https://www.apache.org/images/SupportApache-small.png" class="support-asf" alt="Support Apache"></a><a href="http://www.apache.org/" target="_blank" class="pull-left"><img src="res/images/asf_logo.svg" class="asf-logo" alt="The Apache Software Foundation"></a></div></div></header><main id="middle"><div><div id="mainLeft"><div id="nav-wrapper"><form action="https://www.google.com/search" method="get"><div class="searchbox"><input value="tomcat.apache.org" name="sitesearch" type="hidden"><input aria-label="Search text" placeholder="Search…" required="required" name="q" id="query" type="search"><button>GO</button></div></form><div class="asfevents"><a href="https://www.apache.org/events/current-event.html"><img src="https://www.apache.org/events/current-event-234x60.png" alt="Next ASF event"><br>
+              Save the date!
+            </a></div><nav><div><h2>Apache Tomcat</h2><ul><li><a href="./index.html">Home</a></li><li><a href="./taglibs.html">Taglibs</a></li><li><a href="./maven-plugin.html">Maven Plugin</a></li></ul></div><div><h2>Download</h2><ul><li><a href="./whichversion.html">Which version?</a></li><li><a href="https://tomcat.apache.org/download-10.cgi">Tomcat 10</a></li><li><a href="https://tomcat.apache.org/download-90.cgi">Tomcat 9</a></li><li><a href="https://tomcat.apache.org/download-80.cgi">Tomcat 8</a></li><li><a href="https://tomcat.apache.org/download-70.cgi">Tomcat 7</a></li><li><a href="https://tomcat.apache.org/download-migration.cgi">Tomcat Migration Tool for Jakarta EE</a></li><li><a href="https://tomcat.apache.org/download-connectors.cgi">Tomcat Connectors</a></li><li><a href="https://tomcat.apache.org/download-native.cgi">Tomcat Native</a></li><li><a href="https://tomcat.apache.org/download-taglibs.cgi">Taglibs</a></li><li><a href="https://archive.apache.org/dist/tomcat/">Archives</a></li></ul></div><div><h2>Documentation</h2><ul><li><a href="./tomcat-10.0-doc/index.html">Tomcat 10.0</a></li><li><a href="./tomcat-9.0-doc/index.html">Tomcat 9.0</a></li><li><a href="./tomcat-8.5-doc/index.html">Tomcat 8.5</a></li><li><a href="./tomcat-7.0-doc/index.html">Tomcat 7.0</a></li><li><a href="./connectors-doc/">Tomcat Connectors</a></li><li><a href="./native-doc/">Tomcat Native</a></li><li><a href="https://cwiki.apache.org/confluence/display/TOMCAT">Wiki</a></li><li><a href="./migration.html">Migration Guide</a></li><li><a href="./presentations.html">Presentations</a></li><li><a href="https://cwiki.apache.org/confluence/x/Bi8lBg">Specifications</a></li></ul></div><div><h2>Problems?</h2><ul><li><a href="./security.html">Security Reports</a></li><li><a href="./findhelp.html">Find help</a></li><li><a href="https://cwiki.apache.org/confluence/display/TOMCAT/FAQ">FAQ</a></li><li><a href="./lists.html">Mailing Lists</a></li><li><a href="./bugreport.html">Bug Database</a></li><li><a href="./irc.html">IRC</a></li></ul></div><div><h2>Get Involved</h2><ul><li><a href="./getinvolved.html">Overview</a></li><li><a href="./source.html">Source code</a></li><li><a href="./ci.html">Buildbot</a></li><li><a href="https://cwiki.apache.org/confluence/x/vIPzBQ">Translations</a></li><li><a href="./tools.html">Tools</a></li></ul></div><div><h2>Media</h2><ul><li><a href="https://twitter.com/theapachetomcat">Twitter</a></li><li><a href="https://www.youtube.com/c/ApacheTomcatOfficial">YouTube</a></li><li><a href="https://blogs.apache.org/tomcat/">Blog</a></li></ul></div><div><h2>Misc</h2><ul><li><a href="./whoweare.html">Who We Are</a></li><li><a href="https://www.redbubble.com/people/comdev/works/30885254-apache-tomcat">Swag</a></li><li><a href="./heritage.html">Heritage</a></li><li><a href="http://www.apache.org">Apache Home</a></li><li><a href="./resources.html">Resources</a></li><li><a href="./contact.html">Contact</a></li><li><a href="./legal.html">Legal</a></li><li><a href="https://www.apache.org/foundation/contributing.html">Support Apache</a></li><li><a href="https://www.apache.org/foundation/sponsorship.html">Sponsorship</a></li><li><a href="http://www.apache.org/foundation/thanks.html">Thanks</a></li><li><a href="http://www.apache.org/licenses/">License</a></li></ul></div></nav></div></div><div id="mainRight"><div id="content"><h2 style="display: none;">Content</h2><h3 id="Apache_Tomcat">Apache Tomcat</h3><div class="text">
+
+<p>The Apache Tomcat<sup>®</sup> software is an open source implementation
+of the
+<a href="https://projects.eclipse.org/projects/ee4j.servlet" rel="nofollow">Jakarta Servlet</a>,
+<a href="https://projects.eclipse.org/projects/ee4j.jsp" rel="nofollow">Jakarta Server Pages</a>,
+<a href="https://projects.eclipse.org/projects/ee4j.el" rel="nofollow">Jakarta Expression Language</a>,
+<a href="https://projects.eclipse.org/projects/ee4j.websocket" rel="nofollow">Jakarta WebSocket</a>,
+<a href="https://projects.eclipse.org/projects/ee4j.ca" rel="nofollow">Jakarta Annotations</a> and
+<a href="https://projects.eclipse.org/projects/ee4j.authentication" rel="nofollow">Jakarta Authentication</a>
+specifications. These specifications are part of the
+<a href="https://projects.eclipse.org/projects/ee4j.jakartaee-platform" rel="nofollow">Jakarta EE platform</a>.</p>
+
+<p>The Jakarta EE platform is the evolution of the Java EE platform. Tomcat 10
+and later implement specifications developed as part of Jakarta EE. Tomcat 9 and
+earlier implement specifications developed as part of Java EE.
+</p>
+
+<p>The Apache Tomcat software is developed in an open and participatory
+environment and released under the
+<a href="http://www.apache.org/licenses/">Apache License version 2</a>. The
+Apache Tomcat project is intended to be a collaboration of the best-of-breed
+developers from around the world.  We invite you to participate in this open
+development project.  To learn more about getting involved,
+<a href="getinvolved.html">click here</a>.</p>
+
+<p>Apache Tomcat software powers numerous large-scale, mission-critical web
+applications across a diverse range of industries and organizations.  Some of
+these users and their stories are listed on the
+<a href="https://cwiki.apache.org/confluence/display/TOMCAT/PoweredBy">PoweredBy</a>
+wiki page.</p>
+
+<p>Apache Tomcat, Tomcat, Apache, the Apache feather, and the Apache Tomcat
+project logo are trademarks of the Apache Software Foundation.</p>
+
+</div><h3 id="Tomcat_Native_1.2.30_Released"><span class="pull-right">2021-06-04</span> Tomcat Native 1.2.30 Released</h3><div class="text">
+<p>
+The Apache Tomcat Project is proud to announce the release of version 1.2.30 of
+Tomcat Native. The notable changes since 1.2.28 include:
+</p>
+<ul>
+<li>Fix an issue where some Windows systems in some configurations would only
+    listen on IPv6 addresses on dual stack systems even though configured to
+    listen on both IPv6 and IPv4 addresses.</li>
+<li>Additional fix for bug 65181 (support loading private keys in proprietary
+    formats).</li> 
+</ul>
+<p style="text-align: center;">
+<a href="https://tomcat.apache.org/download-native.cgi">Download</a> |
+<a href="native-doc/miscellaneous/changelog.html">ChangeLog for 1.2.30</a>
+</p>
+</div><h3 id="Tomcat_10.0.6_Released"><span class="pull-right">2021-05-12</span> Tomcat 10.0.6 Released</h3><div class="text">
+<p>
+The Apache Tomcat Project is proud to announce the release of version 10.0.6
+of Apache Tomcat. This release implements specifications that are part of the
+Jakarta EE 9 platform.</p>
+<p>Applications that run on Tomcat 9 and earlier will not run on Tomcat 10
+without changes. Java EE based applications designed for Tomcat 9 and earlier
+may be placed in the <code>$CATALINA_BASE/webapps-javaee</code> directory and
+Tomcat will automatically convert them to Jakarta EE and copy them to the
+webapps directory. This conversion is performed using the
+<a href="https://github.com/apache/tomcat-jakartaee-migration">Apache Tomcat
+migration tool for Jakarta EE tool</a> which is also available as a separate
+<a href="https://tomcat.apache.org/download-migration.cgi">download</a> for off-line use.</p>
+<p>The notable changes in this release are:</p>
+<ul>
+<li>Ensure the correct escaping of attribute values and search filters in
+    the JNDIRealm.</li>
+<li>HandlesTypes should include classes that use the specified annotation
+    types on fields or methods.</li>
+<li>Refactor the creation of WebSocket end point, decoder and encoder
+    instances to be more IoC friendly. Instances are now created via the
+    InstanceManager where possible.</li> 
+</ul>
+<p>
+Full details of these changes, and all the other changes, are available in the
+<a href="tomcat-10.0-doc/changelog.html#Tomcat_10.0.6_(markt)">Tomcat 10
+changelog</a>.
+</p>
+
+<p style="text-align: center;">
+<a href="https://tomcat.apache.org/download-10.cgi">Download</a>
+</p>
+</div><h3 id="Tomcat_9.0.46_Released"><span class="pull-right">2021-05-12</span> Tomcat 9.0.46 Released</h3><div class="text">
+<p>
+The Apache Tomcat Project is proud to announce the release of version 9.0.46
+of Apache Tomcat. This release implements specifications that are part of the
+Java EE 8 platform. The notable changes compared to 9.0.45 include:</p>
+<ul>
+<li>Ensure the correct escaping of attribute values and search filters in
+    the JNDIRealm.</li>
+<li>HandlesTypes should include classes that use the specified annotation
+    types on fields or methods.</li>
+<li>Refactor the creation of WebSocket end point, decoder and encoder
+    instances to be more IoC friendly. Instances are now created via the
+    InstanceManager where possible.</li> 
+</ul>
+<p>
+Full details of these changes, and all the other changes, are available in the
+<a href="tomcat-9.0-doc/changelog.html#Tomcat_9.0.46_(markt)">Tomcat 9
+changelog</a>.
+</p>
+
+<p style="text-align: center;">
+<a href="https://tomcat.apache.org/download-90.cgi">Download</a>
+</p>
+</div><h3 id="Tomcat_8.5.66_Released"><span class="pull-right">2020-05-12</span> Tomcat 8.5.66 Released</h3><div class="text">
+<p>
+The Apache Tomcat Project is proud to announce the release of version 8.5.66
+of Apache Tomcat. This release implements specifications that are part of the
+Java EE 7 platform. The notable changes compared to 8.5.65 include:</p>
+<ul>
+<li>Ensure the correct escaping of attribute values and search filters in
+    the JNDIRealm.</li>
+<li>HandlesTypes should include classes that use the specified annotation
+    types on fields or methods.</li>
+<li>Refactor the creation of WebSocket end point, decoder and encoder
+    instances to be more IoC friendly. Instances are now created via the
+    InstanceManager where possible.</li> 
+</ul>
+<p>
+Full details of these changes, and all the other changes, are available in the
+<a href="tomcat-8.5-doc/changelog.html#Tomcat_8.5.66_(markt)">Tomcat 8.5
+changelog</a>.
+</p>
+
+<p style="text-align: center;">
+<a href="https://tomcat.apache.org/download-80.cgi">Download</a>
+</p>
+</div><h3 id="Tomcat_Migration_Tool_for_Jakarta_EE_1.0.0_Released"><span class="pull-right">2021-05-07</span> Tomcat Migration Tool for Jakarta EE 1.0.0 Released</h3><div class="text">
+<p>
+The Apache Tomcat Project is proud to announce the release of 1.0.0 of the
+Apache Tomcat Migration Tool for Jakarta EE. This release contains a number of
+bug fixes and improvements compared to version 0.2.0.</p>
+<p>The notable changes in this release are:</p>
+<ul>
+<li>Further fixes to exclude javax.xml packages that are not part of Java EE
+    from the migration.</li>
+<li>The class transformer now validates that the target classes in the Jakarta
+    namespace exist in the runtime environment.</li>
+</ul>
+<p>
+Full details of these changes, and all the other changes, are available in the
+<a href="https://github.com/apache/tomcat-jakartaee-migration/blob/main/CHANGES.md">changelog</a>.
+</p>
+
+<p style="text-align: center;">
+<a href="https://tomcat.apache.org/download-migration.cgi">Download</a>
+</p>
+</div><h3 id="Tomcat_7.0.109_Released"><span class="pull-right">2021-04-26</span> Tomcat 7.0.109 Released</h3><div class="text">
+<p>
+The Apache Tomcat Project is proud to announce the release of version 7.0.109 of
+Apache Tomcat. This release implements specifications that are part of the Java
+EE 6 platform. This release contains a number of bug fixes and improvements
+compared to version 7.0.108.</p>
+
+<p>
+Full details of these changes, and all the other changes, are available in the
+<a href="tomcat-7.0-doc/changelog.html#Tomcat_7.0.109_(violetagg)">Tomcat 7 changelog</a>.
+</p>
+
+<p><strong>Note:</strong> Apache Tomcat 7.0.x has reached end of life.
+<a href="tomcat-70-eol.html">Read more...</a>
+</p>
+
+<p style="text-align: center;">
+<a href="https://tomcat.apache.org/download-70.cgi">Download</a>
+</p>
+</div><h3 id="Tomcat_Connectors_1.2.48_Released"><span class="pull-right">2020-03-06</span> Tomcat Connectors 1.2.48 Released</h3><div class="text">
+<p>
+The Apache Tomcat Project is proud to announce the release of version 1.2.48 of
+Apache Tomcat Connectors.
+This version fixes a number of bugs found in previous releases.
+</p>
+<p style="text-align: center;">
+<a href="https://tomcat.apache.org/download-connectors.cgi">Download</a> |
+<a href="connectors-doc/miscellaneous/changelog.html">ChangeLog for 1.2.48</a>
+</p>
+</div><h3 id="Apache_Standard_Taglib_1.2.5_Released"><span class="pull-right">2015-03-17</span> Apache Standard Taglib 1.2.5 Released</h3><div class="text">
+<p>
+The Apache Tomcat Project is proud to announce the release of version 1.2.5 of
+the Standard Taglib. This tag library provides Apache's implementation 
+of the JSTL 1.2 specification.
+</p>
+<p>
+Version 1.2.5 is a minor bug fix release reverting a change made in 1.2.1 where
+&lt;c:import&gt; modified the HTTP method during POST operations, and fixing an
+issues that resulted in an AccessControlException during startup unless
+permission was granted to read the accessExternalEntity property.
+</p>
+<p>
+Please see the <a href="taglibs.html">Taglibs section</a> for more details.
+</p>
+<p style="text-align: center;">
+<a href="https://tomcat.apache.org/download-taglibs.cgi">Download</a> |
+<a href="taglibs/CHANGES.txt">Changes</a>
+</p>
+</div><h3 id="Tomcat_Maven_Plugin_2.2_Released"><span class="pull-right">2013-11-11</span> Tomcat Maven Plugin 2.2 Released</h3><div class="text">
+<p>
+The Apache Tomcat team is pleased to announce the release of Tomcat Maven Plugin 2.2.
+Changelog available <a href="maven-plugin-2.2/jira-report.html" target="_blank">here</a>.
+</p>
+<p>
+The <a href="maven-plugin.html">Apache Tomcat Maven Plugin</a> provides goals
+to manipulate WAR projects within the Apache Tomcat servlet container.
+</p>
+<p>
+The binaries are available from Maven repositories. You should specify the
+version in your project's plugin configuration:
+</p>
+<div class="codeBox"><pre><code>&lt;plugin&gt;
+  &lt;groupId&gt;org.apache.tomcat.maven&lt;/groupId&gt;
+  &lt;artifactId&gt;tomcat7-maven-plugin&lt;/artifactId&gt;
+  &lt;version&gt;2.2&lt;/version&gt;
+&lt;/plugin&gt;</code></pre></div>
+<p>or</p>
+<div class="codeBox"><pre><code>&lt;plugin&gt;
+  &lt;groupId&gt;org.apache.tomcat.maven&lt;/groupId&gt;
+  &lt;artifactId&gt;tomcat6-maven-plugin&lt;/artifactId&gt;
+  &lt;version&gt;2.2&lt;/version&gt;
+&lt;/plugin&gt;</code></pre></div>
+</div><h3 id="Old_news">Old news</h3><div class="text">
+<p>
+  See <a href="oldnews.html"> former announcements.</a>
+</p>
+</div></div></div></div></main><footer id="footer">
+    Copyright © 1999-2021, The Apache Software Foundation
+    <br>
+    Apache Tomcat, Tomcat, Apache, the Apache feather, and the Apache Tomcat
+    project logo are either registered trademarks or trademarks of the Apache
+    Software Foundation.
+  </footer></div><script src="res/js/tomcat.js"></script></body><body><div id="wrapper"><header id="header"><div class="clearfix"><div class="menu-toggler pull-left" tabindex="1"><div class="hamburger"></div></div><a href="http://tomcat.apache.org/"><img class="tomcat-logo pull-left noPrint" alt="Tomcat Home" src="res/images/tomcat.png"></a><h1 class="pull-left">Apache Tomcat<sup>®</sup></h1><div class="asf-logos pull-right"><a href="https://www.apache.org/foundation/contributing.html" target="_blank" class="pull-left"><img src="https://www.apache.org/images/SupportApache-small.png" class="support-asf" alt="Support Apache"></a><a href="http://www.apache.org/" target="_blank" class="pull-left"><img src="res/images/asf_logo.svg" class="asf-logo" alt="The Apache Software Foundation"></a></div></div></header><main id="middle"><div><div id="mainLeft"><div id="nav-wrapper"><form action="https://www.google.com/search" method="get"><div class="searchbox"><input value="tomcat.apache.org" name="sitesearch" type="hidden"><input aria-label="Search text" placeholder="Search…" required="required" name="q" id="query" type="search"><button>GO</button></div></form><div class="asfevents"><a href="https://www.apache.org/events/current-event.html"><img src="https://www.apache.org/events/current-event-234x60.png" alt="Next ASF event"><br>
+              Save the date!
+            </a></div><nav><div><h2>Apache Tomcat</h2><ul><li><a href="./index.html">Home</a></li><li><a href="./taglibs.html">Taglibs</a></li><li><a href="./maven-plugin.html">Maven Plugin</a></li></ul></div><div><h2>Download</h2><ul><li><a href="./whichversion.html">Which version?</a></li><li><a href="https://tomcat.apache.org/download-10.cgi">Tomcat 10</a></li><li><a href="https://tomcat.apache.org/download-90.cgi">Tomcat 9</a></li><li><a href="https://tomcat.apache.org/download-80.cgi">Tomcat 8</a></li><li><a href="https://tomcat.apache.org/download-70.cgi">Tomcat 7</a></li><li><a href="https://tomcat.apache.org/download-migration.cgi">Tomcat Migration Tool for Jakarta EE</a></li><li><a href="https://tomcat.apache.org/download-connectors.cgi">Tomcat Connectors</a></li><li><a href="https://tomcat.apache.org/download-native.cgi">Tomcat Native</a></li><li><a href="https://tomcat.apache.org/download-taglibs.cgi">Taglibs</a></li><li><a href="https://archive.apache.org/dist/tomcat/">Archives</a></li></ul></div><div><h2>Documentation</h2><ul><li><a href="./tomcat-10.0-doc/index.html">Tomcat 10.0</a></li><li><a href="./tomcat-9.0-doc/index.html">Tomcat 9.0</a></li><li><a href="./tomcat-8.5-doc/index.html">Tomcat 8.5</a></li><li><a href="./tomcat-7.0-doc/index.html">Tomcat 7.0</a></li><li><a href="./connectors-doc/">Tomcat Connectors</a></li><li><a href="./native-doc/">Tomcat Native</a></li><li><a href="https://cwiki.apache.org/confluence/display/TOMCAT">Wiki</a></li><li><a href="./migration.html">Migration Guide</a></li><li><a href="./presentations.html">Presentations</a></li><li><a href="https://cwiki.apache.org/confluence/x/Bi8lBg">Specifications</a></li></ul></div><div><h2>Problems?</h2><ul><li><a href="./security.html">Security Reports</a></li><li><a href="./findhelp.html">Find help</a></li><li><a href="https://cwiki.apache.org/confluence/display/TOMCAT/FAQ">FAQ</a></li><li><a href="./lists.html">Mailing Lists</a></li><li><a href="./bugreport.html">Bug Database</a></li><li><a href="./irc.html">IRC</a></li></ul></div><div><h2>Get Involved</h2><ul><li><a href="./getinvolved.html">Overview</a></li><li><a href="./source.html">Source code</a></li><li><a href="./ci.html">Buildbot</a></li><li><a href="https://cwiki.apache.org/confluence/x/vIPzBQ">Translations</a></li><li><a href="./tools.html">Tools</a></li></ul></div><div><h2>Media</h2><ul><li><a href="https://twitter.com/theapachetomcat">Twitter</a></li><li><a href="https://www.youtube.com/c/ApacheTomcatOfficial">YouTube</a></li><li><a href="https://blogs.apache.org/tomcat/">Blog</a></li></ul></div><div><h2>Misc</h2><ul><li><a href="./whoweare.html">Who We Are</a></li><li><a href="https://www.redbubble.com/people/comdev/works/30885254-apache-tomcat">Swag</a></li><li><a href="./heritage.html">Heritage</a></li><li><a href="http://www.apache.org">Apache Home</a></li><li><a href="./resources.html">Resources</a></li><li><a href="./contact.html">Contact</a></li><li><a href="./legal.html">Legal</a></li><li><a href="https://www.apache.org/foundation/contributing.html">Support Apache</a></li><li><a href="https://www.apache.org/foundation/sponsorship.html">Sponsorship</a></li><li><a href="http://www.apache.org/foundation/thanks.html">Thanks</a></li><li><a href="http://www.apache.org/licenses/">License</a></li></ul></div></nav></div></div><div id="mainRight"><div id="content"><h2 style="display: none;">Content</h2><h3 id="Apache_Tomcat">Apache Tomcat</h3><div class="text">
+
+<p>The Apache Tomcat<sup>®</sup> software is an open source implementation
+of the
+<a href="https://projects.eclipse.org/projects/ee4j.servlet" rel="nofollow">Jakarta Servlet</a>,
+<a href="https://projects.eclipse.org/projects/ee4j.jsp" rel="nofollow">Jakarta Server Pages</a>,
+<a href="https://projects.eclipse.org/projects/ee4j.el" rel="nofollow">Jakarta Expression Language</a>,
+<a href="https://projects.eclipse.org/projects/ee4j.websocket" rel="nofollow">Jakarta WebSocket</a>,
+<a href="https://projects.eclipse.org/projects/ee4j.ca" rel="nofollow">Jakarta Annotations</a> and
+<a href="https://projects.eclipse.org/projects/ee4j.authentication" rel="nofollow">Jakarta Authentication</a>
+specifications. These specifications are part of the
+<a href="https://projects.eclipse.org/projects/ee4j.jakartaee-platform" rel="nofollow">Jakarta EE platform</a>.</p>
+
+<p>The Jakarta EE platform is the evolution of the Java EE platform. Tomcat 10
+and later implement specifications developed as part of Jakarta EE. Tomcat 9 and
+earlier implement specifications developed as part of Java EE.
+</p>
+
+<p>The Apache Tomcat software is developed in an open and participatory
+environment and released under the
+<a href="http://www.apache.org/licenses/">Apache License version 2</a>. The
+Apache Tomcat project is intended to be a collaboration of the best-of-breed
+developers from around the world.  We invite you to participate in this open
+development project.  To learn more about getting involved,
+<a href="getinvolved.html">click here</a>.</p>
+
+<p>Apache Tomcat software powers numerous large-scale, mission-critical web
+applications across a diverse range of industries and organizations.  Some of
+these users and their stories are listed on the
+<a href="https://cwiki.apache.org/confluence/display/TOMCAT/PoweredBy">PoweredBy</a>
+wiki page.</p>
+
+<p>Apache Tomcat, Tomcat, Apache, the Apache feather, and the Apache Tomcat
+project logo are trademarks of the Apache Software Foundation.</p>
+
+</div><h3 id="Tomcat_Native_1.2.30_Released"><span class="pull-right">2021-06-04</span> Tomcat Native 1.2.30 Released</h3><div class="text">
+<p>
+The Apache Tomcat Project is proud to announce the release of version 1.2.30 of
+Tomcat Native. The notable changes since 1.2.28 include:
+</p>
+<ul>
+<li>Fix an issue where some Windows systems in some configurations would only
+    listen on IPv6 addresses on dual stack systems even though configured to
+    listen on both IPv6 and IPv4 addresses.</li>
+<li>Additional fix for bug 65181 (support loading private keys in proprietary
+    formats).</li> 
+</ul>
+<p style="text-align: center;">
+<a href="https://tomcat.apache.org/download-native.cgi">Download</a> |
+<a href="native-doc/miscellaneous/changelog.html">ChangeLog for 1.2.30</a>
+</p>
+</div><h3 id="Tomcat_10.0.6_Released"><span class="pull-right">2021-05-12</span> Tomcat 10.0.6 Released</h3><div class="text">
+<p>
+The Apache Tomcat Project is proud to announce the release of version 10.0.6
+of Apache Tomcat. This release implements specifications that are part of the
+Jakarta EE 9 platform.</p>
+<p>Applications that run on Tomcat 9 and earlier will not run on Tomcat 10
+without changes. Java EE based applications designed for Tomcat 9 and earlier
+may be placed in the <code>$CATALINA_BASE/webapps-javaee</code> directory and
+Tomcat will automatically convert them to Jakarta EE and copy them to the
+webapps directory. This conversion is performed using the
+<a href="https://github.com/apache/tomcat-jakartaee-migration">Apache Tomcat
+migration tool for Jakarta EE tool</a> which is also available as a separate
+<a href="https://tomcat.apache.org/download-migration.cgi">download</a> for off-line use.</p>
+<p>The notable changes in this release are:</p>
+<ul>
+<li>Ensure the correct escaping of attribute values and search filters in
+    the JNDIRealm.</li>
+<li>HandlesTypes should include classes that use the specified annotation
+    types on fields or methods.</li>
+<li>Refactor the creation of WebSocket end point, decoder and encoder
+    instances to be more IoC friendly. Instances are now created via the
+    InstanceManager where possible.</li> 
+</ul>
+<p>
+Full details of these changes, and all the other changes, are available in the
+<a href="tomcat-10.0-doc/changelog.html#Tomcat_10.0.6_(markt)">Tomcat 10
+changelog</a>.
+</p>
+
+<p style="text-align: center;">
+<a href="https://tomcat.apache.org/download-10.cgi">Download</a>
+</p>
+</div><h3 id="Tomcat_9.0.46_Released"><span class="pull-right">2021-05-12</span> Tomcat 9.0.46 Released</h3><div class="text">
+<p>
+The Apache Tomcat Project is proud to announce the release of version 9.0.46
+of Apache Tomcat. This release implements specifications that are part of the
+Java EE 8 platform. The notable changes compared to 9.0.45 include:</p>
+<ul>
+<li>Ensure the correct escaping of attribute values and search filters in
+    the JNDIRealm.</li>
+<li>HandlesTypes should include classes that use the specified annotation
+    types on fields or methods.</li>
+<li>Refactor the creation of WebSocket end point, decoder and encoder
+    instances to be more IoC friendly. Instances are now created via the
+    InstanceManager where possible.</li> 
+</ul>
+<p>
+Full details of these changes, and all the other changes, are available in the
+<a href="tomcat-9.0-doc/changelog.html#Tomcat_9.0.46_(markt)">Tomcat 9
+changelog</a>.
+</p>
+
+<p style="text-align: center;">
+<a href="https://tomcat.apache.org/download-90.cgi">Download</a>
+</p>
+</div><h3 id="Tomcat_8.5.66_Released"><span class="pull-right">2020-05-12</span> Tomcat 8.5.66 Released</h3><div class="text">
+<p>
+The Apache Tomcat Project is proud to announce the release of version 8.5.66
+of Apache Tomcat. This release implements specifications that are part of the
+Java EE 7 platform. The notable changes compared to 8.5.65 include:</p>
+<ul>
+<li>Ensure the correct escaping of attribute values and search filters in
+    the JNDIRealm.</li>
+<li>HandlesTypes should include classes that use the specified annotation
+    types on fields or methods.</li>
+<li>Refactor the creation of WebSocket end point, decoder and encoder
+    instances to be more IoC friendly. Instances are now created via the
+    InstanceManager where possible.</li> 
+</ul>
+<p>
+Full details of these changes, and all the other changes, are available in the
+<a href="tomcat-8.5-doc/changelog.html#Tomcat_8.5.66_(markt)">Tomcat 8.5
+changelog</a>.
+</p>
+
+<p style="text-align: center;">
+<a href="https://tomcat.apache.org/download-80.cgi">Download</a>
+</p>
+</div><h3 id="Tomcat_Migration_Tool_for_Jakarta_EE_1.0.0_Released"><span class="pull-right">2021-05-07</span> Tomcat Migration Tool for Jakarta EE 1.0.0 Released</h3><div class="text">
+<p>
+The Apache Tomcat Project is proud to announce the release of 1.0.0 of the
+Apache Tomcat Migration Tool for Jakarta EE. This release contains a number of
+bug fixes and improvements compared to version 0.2.0.</p>
+<p>The notable changes in this release are:</p>
+<ul>
+<li>Further fixes to exclude javax.xml packages that are not part of Java EE
+    from the migration.</li>
+<li>The class transformer now validates that the target classes in the Jakarta
+    namespace exist in the runtime environment.</li>
+</ul>
+<p>
+Full details of these changes, and all the other changes, are available in the
+<a href="https://github.com/apache/tomcat-jakartaee-migration/blob/main/CHANGES.md">changelog</a>.
+</p>
+
+<p style="text-align: center;">
+<a href="https://tomcat.apache.org/download-migration.cgi">Download</a>
+</p>
+</div><h3 id="Tomcat_7.0.109_Released"><span class="pull-right">2021-04-26</span> Tomcat 7.0.109 Released</h3><div class="text">
+<p>
+The Apache Tomcat Project is proud to announce the release of version 7.0.109 of
+Apache Tomcat. This release implements specifications that are part of the Java
+EE 6 platform. This release contains a number of bug fixes and improvements
+compared to version 7.0.108.</p>
+
+<p>
+Full details of these changes, and all the other changes, are available in the
+<a href="tomcat-7.0-doc/changelog.html#Tomcat_7.0.109_(violetagg)">Tomcat 7 changelog</a>.
+</p>
+
+<p><strong>Note:</strong> Apache Tomcat 7.0.x has reached end of life.
+<a href="tomcat-70-eol.html">Read more...</a>
+</p>
+
+<p style="text-align: center;">
+<a href="https://tomcat.apache.org/download-70.cgi">Download</a>
+</p>
+</div><h3 id="Tomcat_Connectors_1.2.48_Released"><span class="pull-right">2020-03-06</span> Tomcat Connectors 1.2.48 Released</h3><div class="text">
+<p>
+The Apache Tomcat Project is proud to announce the release of version 1.2.48 of
+Apache Tomcat Connectors.
+This version fixes a number of bugs found in previous releases.
+</p>
+<p style="text-align: center;">
+<a href="https://tomcat.apache.org/download-connectors.cgi">Download</a> |
+<a href="connectors-doc/miscellaneous/changelog.html">ChangeLog for 1.2.48</a>
+</p>
+</div><h3 id="Apache_Standard_Taglib_1.2.5_Released"><span class="pull-right">2015-03-17</span> Apache Standard Taglib 1.2.5 Released</h3><div class="text">
+<p>
+The Apache Tomcat Project is proud to announce the release of version 1.2.5 of
+the Standard Taglib. This tag library provides Apache's implementation 
+of the JSTL 1.2 specification.
+</p>
+<p>
+Version 1.2.5 is a minor bug fix release reverting a change made in 1.2.1 where
+&lt;c:import&gt; modified the HTTP method during POST operations, and fixing an
+issues that resulted in an AccessControlException during startup unless
+permission was granted to read the accessExternalEntity property.
+</p>
+<p>
+Please see the <a href="taglibs.html">Taglibs section</a> for more details.
+</p>
+<p style="text-align: center;">
+<a href="https://tomcat.apache.org/download-taglibs.cgi">Download</a> |
+<a href="taglibs/CHANGES.txt">Changes</a>
+</p>
+</div><h3 id="Tomcat_Maven_Plugin_2.2_Released"><span class="pull-right">2013-11-11</span> Tomcat Maven Plugin 2.2 Released</h3><div class="text">
+<p>
+The Apache Tomcat team is pleased to announce the release of Tomcat Maven Plugin 2.2.
+Changelog available <a href="maven-plugin-2.2/jira-report.html" target="_blank">here</a>.
+</p>
+<p>
+The <a href="maven-plugin.html">Apache Tomcat Maven Plugin</a> provides goals
+to manipulate WAR projects within the Apache Tomcat servlet container.
+</p>
+<p>
+The binaries are available from Maven repositories. You should specify the
+version in your project's plugin configuration:
+</p>
+<div class="codeBox"><pre><code>&lt;plugin&gt;
+  &lt;groupId&gt;org.apache.tomcat.maven&lt;/groupId&gt;
+  &lt;artifactId&gt;tomcat7-maven-plugin&lt;/artifactId&gt;
+  &lt;version&gt;2.2&lt;/version&gt;
+&lt;/plugin&gt;</code></pre></div>
+<p>or</p>
+<div class="codeBox"><pre><code>&lt;plugin&gt;
+  &lt;groupId&gt;org.apache.tomcat.maven&lt;/groupId&gt;
+  &lt;artifactId&gt;tomcat6-maven-plugin&lt;/artifactId&gt;
+  &lt;version&gt;2.2&lt;/version&gt;
+&lt;/plugin&gt;</code></pre></div>
+</div><h3 id="Old_news">Old news</h3><div class="text">
+<p>
+  See <a href="oldnews.html"> former announcements.</a>
+</p>
+</div></div></div></div></main><footer id="footer">
+    Copyright © 1999-2021, The Apache Software Foundation
+    <br>
+    Apache Tomcat, Tomcat, Apache, the Apache feather, and the Apache Tomcat
+    project logo are either registered trademarks or trademarks of the Apache
+    Software Foundation.
+  </footer></div><script src="res/js/tomcat.js"></script></body>
